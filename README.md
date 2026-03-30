@@ -26,8 +26,10 @@ arXiv preprint:  https://www.arxiv.org/abs/2407.10266```
 
 ## 1. Clone the SAM3 Model Locally
 
+Add your public SSH key to your Hugging Face account before cloning SAM3 to your local machine.
+
 ```bash
-git clone https://huggingface.co/facebook/sam3
+git clone git@hf.co:facebook/sam3
 ```
 
 Note: Facebook requires ethical approval to download or access the model online. Creating a local copy avoids this requirement and is the simplest solution.
